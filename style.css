@@ -1,8 +1,13 @@
+/* Editing code post-submission to add comments if I ever want 
+to use this site layout as a reference for future work. */
+
+/* Applies to entire sphere of the site. */
 * {
     box-sizing: border-box;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Covers within body and html tag */
 body, html {
     margin: 0;
     padding: 0; 
@@ -10,12 +15,14 @@ body, html {
     
 }
 
+/*Setting variables across the site.*/
 :root {
     --primary-color: #15518d;
     --secondary-color: #34495e;
     --font-size-large: 20px;
 }
 
+/* Centering the headers to clean up */
 h2 {
     text-align: center;
 }
